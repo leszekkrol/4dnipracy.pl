@@ -29,6 +29,10 @@ body {
   width: 800px;
 }
 
+.leading-20 {
+  line-height: 20px;
+}
+
 .leading-22 {
   line-height: 22px;
 }
@@ -39,6 +43,10 @@ body {
 
 .leading-35 {
   line-height: 35px;
+}
+
+.leading-55 {
+  line-height: 55px;
 }
 
 .shadow-x-xsm {
