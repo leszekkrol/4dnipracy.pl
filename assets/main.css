@@ -2,7 +2,50 @@
 @tailwind components;
 @tailwind utilities;
 
+*, ::before, ::after {
+  --nav-offset-shadow: 0 0 #0000;
+  --nav-ring-shadow: 0 0 #0000;
+  --text-opacity: 1;
+}
+
+body {
+  color: rgba(34, 34, 34, var(--text-opacity));
+}
+
 .bg-yellow-v1 {
   --bg-opacity: 1;
   background-color: rgba(255, 252, 230, var(--bg-opacity));
+}
+
+.rounded-40 {
+  border-radius: 40px;
+}
+
+.pt-100 {
+  padding-top: 185px;
+}
+
+.shadow-x-xsm {
+  --nav-shadow: 0px 2.65546px 95px rgba(0, 0, 0, 0.1);
+  box-shadow: var(--nav-ring-offset-shadow, 0 0 #0000), var(--nav-ring-shadow, 0 0 #0000), var(--nav-shadow);
+}
+
+.btn-hover-bg:before{
+  content: "";
+  transform: scale(.7) perspective(1px);
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  display: block;
+  height: 100%;
+  width: 100%;
+  border-radius: 40px;
+  opacity: 0;
+  transition: all .2s ease;
+  background: rgba(0,0,0,.05)
+}
+
+.btn-hover-bg.active:before, .btn-hover-bg:hover:before{
+  transform: scale(1.035) perspective(1px);
+  opacity: 1
 }
