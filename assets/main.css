@@ -1,3 +1,8 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.bg-yellow-v1 {
+  --bg-opacity: 1;
+  background-color: rgba(255, 252, 230, var(--bg-opacity));
+}
