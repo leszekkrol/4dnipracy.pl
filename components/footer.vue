@@ -7,11 +7,19 @@
       <ul class="flex flex-wrap justify-left my-6 text-gray-400">
         <li>
           <a 
+            href="https://github.com/leszekkrol/skutecznyplan.pl" 
+            title="Rozwijaj projekt wraz ze mną" 
+            data-splitbee-event="Rozwijaj projekt Open Source" 
+            class="underline mr-6">Open Source</a>
+        </li>
+        <li>
+          <a 
             href="https://dhosting.pl/pp-leszekkrol" 
             title="Dumnie zasilany przez dhosting.pl" 
             data-splitbee-event="Polecam dhosting.pl" 
             class="underline">Dumnie zasilany przez dhosting.pl</a>
         </li>
+        
       </ul>
       <span class="text-sm text-gray-500 sm:text-center">&copy; 2023 <a href="https://www.leszekkrol.com" title="Leszek Wojciech Król - Strona internetowa" class="hover:underline">Leszek W. Król</a>. Wszelkie prawa zastrzeżone.</span>
     </div>
