@@ -30,6 +30,9 @@ jobs:
           npm install
           npm run build
           npm run generate
+        env:
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_KEY: ${{ secrets.SUPABASE_KEY }}
           
       - name: 📂 Sync files
         uses: SamKirkland/FTP-Deploy-Action@v4.3.4
