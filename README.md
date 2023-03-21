@@ -2,7 +2,13 @@
 Portal ofert pracy zdalnej z 4-dniowym tygodniem pracy jest platformą stworzoną dla osób poszukujących lepszej równowagi między życiem zawodowym, a prywatnym. Portal oferuje wyłącznie oferty pracy zdalnej, co pozwala użytkownikom na pracę z dowolnego miejsca na świecie.
 
 ## 🛠 Stack technologiczny
-- [Nuxt 3](https://nuxt.com)
+Frontend:
+- [Nuxt 3](https://nuxt.com) - framework Vuejs
+- [Tailwind](https://tailwindcss.com) - styling and layout
+- [Supabase Module](https://supabase.nuxtjs.org) - do zarządzania użytkownikami i klientem danych Supabase
+
+Backend:
+- [Supabase](https://nuxt.com) - hosting bazy danych Postgres z restful API do użytku z Supabase.js
 
 ## ✍️ Rozwój
 Chcesz uczestniczyć w moich projektach? Dziękuję bardzo za zainteresowanie! Zawsze poszukuje dalszej drogi rozwoju dla tego co robię, a wkład programistów open-source jest bardzo doceniany.
