@@ -3,6 +3,7 @@
 @tailwind utilities;
 
 *, ::before, ::after {
+  --nav-ring-offset-shadow: 0 0 #0000;
   --nav-offset-shadow: 0 0 #0000;
   --nav-ring-shadow: 0 0 #0000;
   --text-opacity: 1;
@@ -10,6 +11,11 @@
 
 body {
   color: rgba(34, 34, 34, var(--text-opacity));
+}
+
+.shadow-xs{
+  --nav-shadow:0px 2.65546px 95px rgba(0, 0, 0, 0.05);
+  box-shadow:var(--nav-ring-offset-shadow, 0 0 #0000), var(--nav-ring-shadow, 0 0 #0000), var(--nav-shadow);
 }
 
 .bg-yellow-v1 {
