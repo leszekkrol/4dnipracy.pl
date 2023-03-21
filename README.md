@@ -4,7 +4,7 @@ Portal ofert pracy zdalnej z 4-dniowym tygodniem pracy jest platformą stworzon�
 ## 🛠 Stack technologiczny
 Frontend:
 - [Nuxt 3](https://nuxt.com) - framework Vuejs
-- [Tailwind](https://tailwindcss.com) - styling and layout
+- [Tailwind](https://tailwindcss.com) - styling i layout
 - [Supabase Module](https://supabase.nuxtjs.org) - do zarządzania użytkownikami i klientem danych Supabase
 
 Backend:
