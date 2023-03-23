@@ -6,6 +6,7 @@ Frontend:
 - [Nuxt 3](https://nuxt.com) - framework Vuejs
 - [Tailwind](https://tailwindcss.com) - styling i layout
 - [Supabase Module](https://supabase.nuxtjs.org) - do zarządzania użytkownikami i klientem danych Supabase
+- [Pinia](https://pinia.vuejs.org) - store dla Vuejs
 
 Backend:
 - [Supabase](https://nuxt.com) - hosting bazy danych Postgres z restful API do użytku z Supabase.js
