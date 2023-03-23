@@ -49,7 +49,8 @@ export default defineNuxtConfig({
     '~/assets/main.css',
   ],
   modules: [
-    '@nuxtjs/supabase'
+    '@nuxtjs/supabase',
+    '@pinia/nuxt'
   ],
   supabase: {
     url: process.env.SUPABASE_URL,
