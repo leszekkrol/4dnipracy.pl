@@ -10,21 +10,21 @@
             href="https://github.com/leszekkrol/4dnipracy.pl" 
             title="Rozwijaj projekt wraz ze mną" 
             data-splitbee-event="Rozwijaj projekt Open Source" 
-            class="underline"><img src="~/assets/open-source.svg" class="h-10" /></a>
+            class="underline"><img src="~/assets/open-source.svg" class="h-6 sm:h-8 md:h-10" /></a>
         </li>
         <li>
           <a 
             href="https://github.com/leszekkrol/4dnipracy.pl" 
             title="Carbon Neutral" 
             data-splitbee-event="Carbon Neutral" 
-            class="underline"><img src="~/assets/carbon-neutral.svg" class="h-12" /></a>
+            class="underline"><img src="~/assets/carbon-neutral.svg" class="h-8 sm:h-10 md:h-12" /></a>
         </li>
         <li>
           <a 
             href="https://dhosting.pl/pp-leszekkrol" 
             title="Dumnie zasilany przez dhosting.pl" 
             data-splitbee-event="Polecam dhosting.pl" 
-            class="underline"><img src="~/assets/dhosting.png" class="h-10"></a>
+            class="underline"><img src="~/assets/dhosting.png" class="h-6 sm:h-8 md:h-10"></a>
         </li>
         
       </ul>

@@ -1,7 +1,14 @@
 <template>
   <div class="w-full z-10 fixed pt-8">
-    <div class="flex justify-between items-center p-4 bg-white mx-auto rounded-40 shadow-x-xsm lg:w-5/12">
-      <div class="flex">
+    <div class="flex justify-between items-center p-4 bg-white mx-auto rounded-40 shadow-x-xsm max-w-screen-xl">
+      <div class="flex items-center">
+        <NuxtLink 
+          to="/faq"
+          title="4dnipracy.pl - Twój portal pracy zdalnej"
+          target="_self" 
+          class="relative flex items-center inline-block px-8">
+            <img src="~/assets/logo.svg" alt="4dnipracy.pl - Twój portal pracy zdalnej" style="width: 120px">
+        </NuxtLink>
         <NuxtLink 
           to="/faq"
           title="FAQu"
@@ -9,19 +16,19 @@
           class="btn-hover-bg relative flex items-center font-bold inline-block px-8 py-4">FAQu</NuxtLink>
         <NuxtLink 
           to="/o-inicjatywie"
-          title="FAQu"
+          title="O inicjatywie"
           target="_self" 
           class="btn-hover-bg relative flex items-center font-bold inline-block px-8 py-4">O inicjatywie</NuxtLink>
-        <NuxtLink 
-          to="https://buycoffee.to/leszekkrol"
-          title="FAQu"
-          target="_self" 
-          class="btn-hover-bg relative flex items-center font-bold inline-block px-8 py-4">Wesprzyj</NuxtLink>
       </div>
       <div class="flex">
         <NuxtLink 
+          to="/wesprzyj"
+          title="Wesprzyj"
+          target="_self" 
+          class="btn-hover-bg relative flex items-center font-bold inline-block px-8 py-4">Wesprzyj</NuxtLink>
+        <NuxtLink 
           to="/dodaj-ogloszenie"
-          title="FAQu"
+          title="Dodaj ogłoszenie"
           target="_self" 
           class="btn-yellow-bg btn-hover-bg relative flex items-center font-bold inline-block px-8 py-4">Dodaj ogłoszenie</NuxtLink>
       </div>
