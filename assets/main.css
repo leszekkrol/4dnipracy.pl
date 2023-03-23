@@ -60,6 +60,12 @@ body {
   box-shadow: var(--nav-ring-offset-shadow, 0 0 #0000), var(--nav-ring-shadow, 0 0 #0000), var(--nav-shadow);
 }
 
+.btn-yellow-bg {
+  border-radius: 40px;
+  --bg-opacity:1;
+  background-color:rgba(255, 221, 0, var(--bg-opacity))
+}
+
 .btn-hover-bg:before{
   content: "";
   transform: scale(.7) perspective(1px);
