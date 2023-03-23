@@ -24,7 +24,7 @@
             href="https://dhosting.pl/pp-leszekkrol" 
             title="Dumnie zasilany przez dhosting.pl" 
             data-splitbee-event="Polecam dhosting.pl" 
-            class="underline">Dumnie zasilany przez dhosting.pl</a>
+            class="underline"><img src="~/assets/dhosting.png" class="h-10"></a>
         </li>
         
       </ul>
