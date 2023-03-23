@@ -3,7 +3,7 @@
     <div class="flex justify-between items-center p-4 bg-white mx-auto rounded-40 shadow-x-xsm max-w-screen-xl">
       <div class="flex items-center">
         <NuxtLink 
-          to="/faq"
+          to="/"
           title="4dnipracy.pl - Twój portal pracy zdalnej"
           target="_self" 
           data-splitbee-event="Homepage" 
