@@ -13,7 +13,7 @@
     "postinstall": "nuxt prepare"
   },
   "devDependencies": {
-    "@nuxtjs/supabase": "^0.3.5",
+    "@nuxtjs/supabase": "^0.3.6",
     "autoprefixer": "^10.4.14",
     "nuxt": "^3.5.1",
     "postcss": "^8.4.24",
