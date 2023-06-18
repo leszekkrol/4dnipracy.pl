@@ -2,7 +2,15 @@
   "name": "4dnipracy",
   "description": "We list remote jobs with a 4 day work week.",
   "version": "1.1.0",
-  "keywords": [],
+  "keywords": [
+    "i18n",
+    "frontend-web",
+    "nuxt",
+    "website-design",
+    "tailwindcss",
+    "pinia-vuejs",
+    "nuxt3-content"
+  ],
   "author": "Leszek W. Król <contact@leszekkrol.com>",
   "private": true,
   "scripts": {
